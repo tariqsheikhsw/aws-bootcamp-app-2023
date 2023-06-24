@@ -47,6 +47,9 @@ networks:
     driver: bridge
     name: cruddur
 
+volumes: 
+  - db:/var/lib/postgresql/data
+
 volumes:
   db:
     driver: local
