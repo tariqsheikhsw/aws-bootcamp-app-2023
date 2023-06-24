@@ -258,7 +258,9 @@ To install the postgres client into Gitpod
 
 Connnect to postgres client
 ```
- psql -h localhost 
+psql -h localhost
+
+psql -Upostgres -h localhost
 ```
 
 ### DynamoDB Local
